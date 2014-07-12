@@ -35,7 +35,7 @@ when "windows"
   default['java']['windows']['checksum'] = nil
   default['java']['windows']['package_name'] = "Java(TM) SE Development Kit 7 (64-bit)"
 else
-  default['java']['install_flavor'] = "openjdk"
+  default['java']['install_flavor'] = "oracle"
 end
 
 case node['java']['install_flavor']
